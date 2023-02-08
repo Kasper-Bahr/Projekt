@@ -1,13 +1,21 @@
+import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+    User user = new User();
+    Employee employee = new Employee();
+    employee.hireEmployee(user);
+
+
+
+
 
         Random random = new Random();
         int numProject = random.nextInt(10) + 5;
 
-        Project[] projects = new Project[numProject]
+        Project[] projects = new Project[numProject];
 
 
 
